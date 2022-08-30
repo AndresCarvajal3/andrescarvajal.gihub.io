@@ -1,0 +1,335 @@
+body{
+    font-family: 'EB Garamond', serif;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+div { 
+
+    border-color: black;
+ 
+   
+    
+}
+
+h3{
+    padding: 0;
+}
+
+h1 {
+    padding: 0;
+    
+}
+
+header {
+    padding: 15px 0;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color:white;
+    
+ 
+ }
+
+ .informacion { 
+     background-color: lightskyblue;
+     
+ }
+
+a {
+    display: inline-block;
+}
+
+
+
+.contenedor {
+    width: 1140px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+   position: relative;
+   }
+
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  
+}
+
+.fila-inicio { 
+ margin-top: 40px;
+ padding: 15px;
+ display: flex;
+ 
+}
+
+.fila-medio { 
+    margin-top:10px;
+    padding: 10px;
+    display: flex;
+   
+}
+
+.fila-final{
+    margin-top:20px;
+    display: flex;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    background-color:black;
+  
+  }
+
+  header .contenedor nav a {
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  
+
+  }
+
+  header .contenedor nav a:hover {
+    color:tomato;
+    }
+
+header .contenedor .logo { 
+    width: 70px;
+}
+
+
+
+.columna-70 { 
+    width: 70%;
+    flex-direction: row;
+    
+   
+}
+
+.cargos { 
+    padding-left:50px; 
+    position: relative;
+    margin-left:-50px;
+}
+
+.columna-65 {
+    width: 65%;
+    flex-direction: row;
+    margin-top: 0px;
+    text-align: start;
+}
+
+.columna-30 { 
+    
+    width: 30% ;
+    flex-direction: row;
+    
+}
+
+.columna-35 { 
+    
+    width: 35% ;
+    flex-direction: row;
+    
+}
+
+.column-experiencia { 
+    height: auto;
+    width: 35% ;
+    vertical-align: top;
+    margin-top: 0;
+    padding-left: 10px;
+    padding-right:10px ;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.columna-50 { 
+    width: 50%;
+    flex-direction: row;
+}
+
+
+#laboral { 
+    position:relative;
+}
+
+#Proyectos {
+margin-top: 20px;
+padding: 10px;
+
+
+}
+
+footer { 
+    padding: 10px;
+}
+
+
+
+div.imagen-perfil { 
+    background-image:url(img/perfil.jpg);
+    background-repeat:round;
+    
+  
+    height: 190px;
+    width: 190px;
+    
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 90px;
+    margin-top: 7%;
+    margin-left:15px ;
+   
+}
+
+div.columna-30.informacion { 
+    margin-top: 60px;
+    text-align: center;
+    height:2100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0%;
+}
+
+
+div.columna-30.informacion img { 
+    width: 40px;
+    padding-top: 20px;
+    image-orientation: from-image;
+    
+}
+
+div.columna-30 li {
+    text-align: left;
+    padding-left: 40px; 
+}
+
+div.columna-30 ul { 
+    margin-left: 30px;
+}
+
+.formacion { 
+    margin-top: 0px;
+    flex-direction: row;
+    padding-left: 10px;
+    margin-right: -10px;
+    
+}
+
+.estudios { 
+    margin-top: 0px;
+    flex-direction: row;
+    padding-left: 30px;
+    
+
+}
+
+
+
+ 
+    hr {
+        height: 2px;
+        width: 90%;
+        background-color: rgb(119, 119, 119);
+        border-radius: 5px;
+      }
+
+      .columna-centrado { 
+        width: 100%; 
+        height: auto;
+        text-align: center; 
+       
+      }
+
+      .columna-25 { 
+          width: 25%;
+          height: auto;
+          text-align: center;
+          flex-direction: row;
+      }
+
+      .columna-45 {
+          width: 45%;
+          height: auto;
+          text-align: justify;
+      }
+
+      .imagenes-proyectos img { 
+        width: 200px;
+        height: auto;
+        orientation: landscape;
+    }
+
+.redes li{ 
+  list-style: none;
+ 
+}
+
+.redes { 
+    display:flex;
+    padding-right: 30px;    
+
+}
+
+ul.redes { 
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.imagenes-proyecto img{ 
+    width:100%;
+    padding-bottom:10%;
+    position: relative;
+
+}
+
+.info { 
+    padding-right: 15px;
+}
+
+.columna-33 { 
+    width: 33.3%;
+    
+          height: auto;
+          text-align:justify;
+          flex-direction: row;
+          padding-right: 5px;
+          padding-left: 5px;
+}
+
+.columna-33 h3{
+    text-align: center;
+ }
+
+footer { 
+    background-color: black;
+    color: blanchedalmond;
+ 
+    justify-content: space-between;
+}
+
+.Botones { 
+    border: 0px;
+    background-color: rgb(15, 191, 235);
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 42%;
+    margin-top: auto; 
+}
+
+.Botones:hover{
+    background-color: white;
+    color: black;
+    border: 1px rgb(0, 255, 234) solid;
+
+ }
